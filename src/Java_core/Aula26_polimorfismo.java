@@ -11,6 +11,9 @@ public class Aula26_polimorfismo {
         carro car=new carro();
         Bicicleta bike=new Bicicleta();
         Barco barco=new Barco();
+        Veiculo ve=new carro();
+        ve.ir();
+        //ve.correr(); este metodo na vai funcionar pois o veiculo so pode acessar os metodos/variaveis que ele tem em comum com o carro e nao acessa metodo/variaveis exclusivas do carro
 
 //        car.ir();
 //        bike.ir();

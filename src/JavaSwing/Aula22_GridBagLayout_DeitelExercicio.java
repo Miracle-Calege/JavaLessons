@@ -3,13 +3,13 @@ package JavaSwing;
 import javax.swing.*;
 import java.awt.*;
 
-public class Aula22_GridLayout_DeitelExercicio  extends JFrame {
+public class Aula22_GridBagLayout_DeitelExercicio extends JFrame {
     private JTextArea area1,area2;
     private JTextField tx;
     private JComboBox box;
     private GridBagConstraints gc;
 
-    public Aula22_GridLayout_DeitelExercicio(){
+    public Aula22_GridBagLayout_DeitelExercicio(){
         setTitle("Deitel-GridBagLayout");
         setSize(300,150);
         setLocationRelativeTo(null);
@@ -98,7 +98,7 @@ public class Aula22_GridLayout_DeitelExercicio  extends JFrame {
     }
 
     public static void main(String[] args) {
-        new Aula22_GridLayout_DeitelExercicio();
+        new Aula22_GridBagLayout_DeitelExercicio();
     }
 
 }

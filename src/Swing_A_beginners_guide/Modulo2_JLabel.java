@@ -24,7 +24,7 @@ setHorizontalAlignment(int alinhamentoHorizontal)-> determinar o alinhamento hor
 setVerticalAlignment(int alinhamentoVertical)-> determina o alinhamento vertical.Os parametros podem ser SwingConstants.TOP,SwingConstants.CENTER,SwingConstants.BOTTOM;
 setPrefferedSize(new Dimension(int largura,int altura))-> para predefinir um tamanho
 setMinimumSize(new Dimension(int largura,int altura))->para predefinir o tamanho minimo;
-setMazimumSize(new Dimension(int largura,int altura))->para predefinir o tamanho maximo;
+setMaximumSize(new Dimension(int largura,int altura))->para predefinir o tamanho maximo;
 
 NB:Quando utilizamos constructor sem especificar o alinhamento, a label e colocada a esqueda com o seu conteudo centralizado verticalmente
  Os metodos acima so serao funcionais em gestores de layout como flow e grid se a label/conteudo for menor que o seu container

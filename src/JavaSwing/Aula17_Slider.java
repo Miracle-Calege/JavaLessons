@@ -16,7 +16,7 @@ public class Aula17_Slider extends JFrame  implements ChangeListener {
     pn=new JPanel();
     label=new JLabel();
     slider=new JSlider(0,100,50);//valor minimo, maximo e inicial
-   slider.setPreferredSize(new Dimension(400,200));//colocamos as dimensoes
+   slider.setPreferredSize(new Dimension(420,200));//colocamos as dimensoes
    slider.setPaintTicks(true);//coloca a graduacao
     slider.setMinorTickSpacing(10);// coloca a menor distancia da graduacao 0-10-20-30
      slider.setPaintTrack(true);

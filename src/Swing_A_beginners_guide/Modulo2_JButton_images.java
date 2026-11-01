@@ -24,7 +24,7 @@ setEnable(boolean estado)-> torna o botao clicavel ou nao clicavel
 isEnable()-> retorna um valor logico verifica se o componente esta no estado clicavel ou nao clicavel
 isRolloverEnable();
 setRolloverEnable();
-setDefaultButton(JButton button)-> defini qual botao sera selecionado quando o Enter for clicado.Deve ser precedido por getRootPane()
+setDefaultButton(JButton button)-> define qual botao sera selecionado quando o Enter for clicado.Deve ser precedido por getRootPane()
 
 Quando tivermos icon e texto podemos usar
 

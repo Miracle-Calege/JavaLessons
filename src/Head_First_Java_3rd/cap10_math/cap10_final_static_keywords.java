@@ -36,11 +36,11 @@ variavel do tipo final e aquele que uma vez inicializada o seu valores nao muda.
 *
 * Existem duas formas de inicializar.
 * 1.Inicializar logo durante a criacao
-* ex: private final double PI=3.14;
+* ex: private static final double PI=3.14;
 
 * 2.Usando o inicializador static
 * Criamos a variavel.
-* ex: private final double PI;
+* ex: private static final double PI;
 *depois usamos o static{}
 * static{
 * PI=valor

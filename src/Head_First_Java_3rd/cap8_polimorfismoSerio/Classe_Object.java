@@ -18,7 +18,7 @@ public class Classe_Object {
 
     c.hashCode();
 
-    4.toString()->imprime uma mensagem com o nome da classe e alguns números.
+    4.toString()->imprime uma mensagem com o nome da classe e alguns números, quando fazemos System.out.println(objecto)
 
     c.toString();
 
